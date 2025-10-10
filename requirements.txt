@@ -1,0 +1,4 @@
+pymongo==4.2.0
+
+-e . #editable mode --> this eliminates the need to run setup.py for adding new libraries. By running this file, we will
+     # install new libraries. -e. will trigger setup.py automatically.
