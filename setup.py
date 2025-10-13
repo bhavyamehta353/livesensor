@@ -3,8 +3,8 @@ from setuptools import find_packages, setup
 from typing import List
 
 
-def get_requirements()->list[str]: #--> we are returning a list of strings
-    req_list = list[str] = []
+def get_requirements()->List[str]: #--> we are returning a list of strings
+    req_list : List[str] = []
     return req_list
 
 
