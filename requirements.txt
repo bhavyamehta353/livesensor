@@ -1,4 +1,10 @@
-pymongo==4.2.0
+pymongo[srv]==4.2.0
+pandas
+numpy
+scikit-learn
+pymongo
+python-dotenv
+certifi
 
 -e . #editable mode --> this eliminates the need to run setup.py for adding new libraries. By running this file, we will
      # install new libraries. -e. will trigger setup.py automatically.
