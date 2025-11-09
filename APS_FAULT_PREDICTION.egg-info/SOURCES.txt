@@ -18,7 +18,7 @@ sensor/components/model_evaluation.py
 sensor/components/model_pusher.py
 sensor/components/model_trainer.py
 sensor/configuration/__init__.py
-sensor/configuration/mongodb_db_connection.py
+sensor/configuration/mongo_db_connection.py
 sensor/constant/__init__.py
 sensor/constant/application.py
 sensor/constant/database.py
@@ -26,8 +26,11 @@ sensor/constant/env_variables.py
 sensor/constant/s3_bucket.py
 sensor/constant/training_pipeline/__init__.py
 sensor/data_access/__init__.py
+sensor/data_access/sensor_data.py
 sensor/entity/__init__.py
 sensor/entity/artifact_entity.py
 sensor/entity/config_entity.py
 sensor/pipeline/__init__.py
 sensor/pipeline/training_pipeline.py
+sensor/utils/__init__.py
+sensor/utils/main_utils.py

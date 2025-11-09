@@ -5,6 +5,8 @@ scikit-learn
 pymongo
 python-dotenv
 certifi
+PyYAML
+dill
 
 -e . #editable mode --> this eliminates the need to run setup.py for adding new libraries. By running this file, we will
      # install new libraries. -e. will trigger setup.py automatically.

@@ -2,7 +2,6 @@ from sensor.exception import SensorException
 import sys
 import os
 from sensor.logger import logging
-from sensor.utils import dump_csv_file_to_monogodb_collection
 from sensor.entity.config_entity import TrainingPipelineConfig, DataIngestionConfig
 from sensor.pipeline.training_pipeline import TrainPipeline
 # def test_exception():
